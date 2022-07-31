@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: var(--color);
-  background-color: black;
+  background-color: rgb(5, 5, 5);
   overflow-x: hidden;
 }
 
@@ -79,7 +79,9 @@ body {
           align-items: center;
   text-align: center;
 }
-
+hr{
+  background-color: var(--color);
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
